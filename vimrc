@@ -12,7 +12,14 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tacahiroy/ctrlp-funky'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-scripts/taglist.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'bfrg/vim-cpp-modern'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -39,6 +46,10 @@ set t_Co=256
 set ts=4
 set expandtab
 set autoindent
+set cindent
+set softtabstop=4
+set shiftwidth=4
+set tags+=~/.vim/systags
 syntax enable
 set backspace=indent,eol,start
 
